@@ -11,8 +11,7 @@ app_ui <- function(request) {
     # Your application UI logic 
     htmlTemplate(
       app_sys("app/www/index.html"),
-      title = "Hello",
-      subtitle = "hi"
+      title = "Hello"
     )
   )
 }
